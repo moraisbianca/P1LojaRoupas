@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #06285c;
+}
+
+body {
+    background-color: #90CAF9;
+}
+
+ul {
+    padding: 30px;
+    background-color: #06285c;
+}
+
+a {
+    color: #E3F2FD;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#Principal {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    background-color: #E3F2FD;
+    border: 5px solid #64B5F6;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+}
+
+#SobreNos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: initial;
+    padding: 40px;
+
+}
+
+p {
+    font-size: 22px;
+    margin-right: 35px;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    margin:2% 2% 2% 2%;
+}
+
+table tbody td, table, thead, th { padding: 15px; }
+
+table tbody td { border-bottom: 1px solid #ddd; }
+table, thead, th { text-align: center; justify-items: center; }
+thead, th {text-transform: uppercase; font-weight: bold; font-size: 20px;}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 5%, 10%, 5%, 0%;
+}
+
+input{
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 2px solid #64B5F6;
+    margin: 10px;
+    padding: 2px;
+}
+
